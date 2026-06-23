@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: employee-api
+  namespace: nagp
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: employee-api
+  template:
+    metadata:
+      labels:
+        app: employee-api
+    spec:
+      containers:
+      - name: employee-api
+        image: manasabrol/employee-api:v1
+        imagePullPolicy: Always
+
+        ports:
+        - containerPort: 3000
+
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
+          limits:
+            cpu: "500m"
+            memory: "512Mi"
+
+        envFrom:
+        - configMapRef:
+            name: app-config
+
+        - secretRef:
+            name: app-secret
