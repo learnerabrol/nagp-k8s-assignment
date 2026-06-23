@@ -258,7 +258,7 @@ The screen recording demonstrates:
 Video Link:
 
 ```text
-<ADD_YOUR_VIDEO_LINK_HERE>
+(https://tinyurl.com/5n7kuyez)
 ```
 
 ---
