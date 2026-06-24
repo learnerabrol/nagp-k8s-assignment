@@ -258,7 +258,7 @@ The screen recording demonstrates:
 Video Link:
 
 ```text
-https://tinyurl.com/5n7kuyez
+https://nagarro-my.sharepoint.com/:v:/p/manas_abrol/IQC-mKcpqr2mQYvGV-k2Zzp8AWEzm_-R43vsQb8qAb-CZ6w?e=qISLVZ
 ```
 
 ---
